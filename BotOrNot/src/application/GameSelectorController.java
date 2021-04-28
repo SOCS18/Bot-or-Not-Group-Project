@@ -25,7 +25,7 @@ public class GameSelectorController {
 	
 	@FXML
 	void warzonePressed(ActionEvent event) {
-		// warzone thingy lol
+		
 	}
 	
 	@FXML
