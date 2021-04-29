@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddViewController">
+   <children>
+      <Button fx:id="add" layoutX="177.0" layoutY="127.0" mnemonicParsing="false" onAction="#addPressed" prefHeight="91.0" prefWidth="146.0" text="ADD INFO" />
+      <Button fx:id="view" layoutX="177.0" layoutY="250.0" mnemonicParsing="false" onAction="#viewPressed" prefHeight="91.0" prefWidth="146.0" text="VIEW STATS" />
+      <Button fx:id="back1" layoutX="457.0" layoutY="461.0" mnemonicParsing="false" onAction="#back1Pressed" prefHeight="25.0" prefWidth="29.0" text="&lt;" />
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#menuPressed" text="Home" />
+   </children>
 </AnchorPane>
 
