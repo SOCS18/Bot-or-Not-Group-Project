@@ -5,11 +5,11 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="mainPane" prefHeight="291.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameSelectorController">
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameSelectorController">
    <children>
-      <Button fx:id="warzoneButton" layoutX="122.0" layoutY="61.0" mnemonicParsing="false" onAction="#warzonePressed" text="Warzone" />
-      <Button fx:id="fortniteButton" layoutX="125.0" layoutY="201.0" mnemonicParsing="false" onAction="#fortnitePressed" text="Fortnite" />
-      <Button fx:id="apexButton" layoutX="107.0" layoutY="133.0" mnemonicParsing="false" onAction="#apexPressed" text="Apex: Legends" />
-      <Button fx:id="menuButton" layoutX="14.0" layoutY="252.0" mnemonicParsing="false" onAction="#menuPressed" text="Menu" />
+      <Button fx:id="warzoneButton" layoutX="135.0" layoutY="100.0" mnemonicParsing="false" onAction="#warzonePressed" prefHeight="80.0" prefWidth="199.0" text="Warzone" />
+      <Button fx:id="fortniteButton" layoutX="135.0" layoutY="319.0" mnemonicParsing="false" onAction="#fortnitePressed" prefHeight="80.0" prefWidth="199.0" text="Fortnite" />
+      <Button fx:id="apexButton" layoutX="135.0" layoutY="210.0" mnemonicParsing="false" onAction="#apexPressed" prefHeight="80.0" prefWidth="199.0" text="Apex Legends" />
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#menuPressed" text="Home" />
    </children>
 </AnchorPane>
