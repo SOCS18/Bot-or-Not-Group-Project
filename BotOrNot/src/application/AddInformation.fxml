@@ -5,47 +5,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddInformationController">
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddInformationController">
    <children>
-      <Label fx:id="game" layoutX="14.0" layoutY="21.0" prefHeight="30.0" prefWidth="49.0" text="Game 1:" />
-      <Label fx:id="game" layoutX="246.0" layoutY="252.0" prefHeight="30.0" prefWidth="49.0" text="Game 4:" />
-      <Label fx:id="game" layoutX="13.0" layoutY="252.0" prefHeight="30.0" prefWidth="49.0" text="Game 3:" />
-      <Label fx:id="game" layoutX="226.0" layoutY="21.0" prefHeight="30.0" prefWidth="49.0" text="Game 2:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="194.0" text="Placement:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="151.0" text="Deaths:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="103.0" text="Kills:" />
-      <Label fx:id="info" layoutX="15.0" layoutY="60.0" text="Damage:" />
-      <Label fx:id="info" layoutX="226.0" layoutY="194.0" text="Placement:" />
-      <Label fx:id="info" layoutX="251.0" layoutY="370.0" text="Deaths:" />
-      <Label fx:id="info" layoutX="226.0" layoutY="103.0" text="Kills:" />
-      <Label fx:id="info" layoutX="247.0" layoutY="290.0" text="Damage:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="290.0" text="Damage:" />
-      <Label fx:id="info" layoutX="225.0" layoutY="60.0" text="Damage:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="332.0" text="Kills:" />
-      <Label fx:id="info" layoutX="253.0" layoutY="332.0" text="Kills:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="370.0" text="Deaths:" />
-      <Label fx:id="info" layoutX="225.0" layoutY="151.0" text="Deaths:" />
-      <Label fx:id="info" layoutX="246.0" layoutY="410.0" text="Placement:" />
-      <Label fx:id="info" layoutX="14.0" layoutY="410.0" text="Placement:" />
+      <Label fx:id="game" layoutX="202.0" layoutY="116.0" prefHeight="30.0" prefWidth="97.0" text="Game Information" />
+      <Label fx:id="info" layoutX="170.0" layoutY="293.0" text="Placement:" />
+      <Label fx:id="info" layoutX="170.0" layoutY="250.0" text="Deaths:" />
+      <Label fx:id="info" layoutX="170.0" layoutY="202.0" text="Kills:" />
+      <Label fx:id="info" layoutX="171.0" layoutY="159.0" text="Damage:" />
       <Button fx:id="menuButton" layoutX="13.0" layoutY="461.0" mnemonicParsing="false" onAction="#menuPressed" text="Home" />
       <Button fx:id="back2" layoutX="372.0" layoutY="461.0" mnemonicParsing="false" onAction="#back2Pressed" prefHeight="25.0" prefWidth="29.0" text="&lt;" />
       <Button fx:id="enter" layoutX="415.0" layoutY="461.0" mnemonicParsing="false" onAction="#enterPressed" prefHeight="25.0" prefWidth="71.0" text="Enter Info" />
-      <TextField fx:id="d1" layoutX="83.0" layoutY="56.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="k1" layoutX="83.0" layoutY="99.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="de1" layoutX="83.0" layoutY="147.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="p1" layoutX="83.0" layoutY="190.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="d2" layoutX="295.0" layoutY="56.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="k2" layoutX="295.0" layoutY="99.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="de2" layoutX="295.0" layoutY="147.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="p2" layoutX="295.0" layoutY="190.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="d3" layoutX="83.0" layoutY="286.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="k3" layoutX="83.0" layoutY="328.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="de3" layoutX="83.0" layoutY="366.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="p3" layoutX="83.0" layoutY="406.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="k4" layoutX="315.0" layoutY="328.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="d4" layoutX="315.0" layoutY="286.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="de4" layoutX="315.0" layoutY="366.0" prefHeight="25.0" prefWidth="91.0" />
-      <TextField fx:id="p4" layoutX="315.0" layoutY="406.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="damage" layoutX="239.0" layoutY="155.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="kills" layoutX="239.0" layoutY="198.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="deaths" layoutX="239.0" layoutY="246.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="placement" layoutX="239.0" layoutY="289.0" prefHeight="25.0" prefWidth="91.0" />
    </children>
 </AnchorPane>
-
