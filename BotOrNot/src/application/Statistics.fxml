@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StatisticsController">
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StatisticsController">
    <children>
       <ListView fx:id="list" layoutX="54.0" layoutY="244.0" prefHeight="195.0" prefWidth="371.0" />
       <Button fx:id="menuButton" layoutX="18.0" layoutY="455.0" mnemonicParsing="false" onAction="#menuPressed" text="Home" />
@@ -20,6 +20,6 @@
       <TextField fx:id="avgDmg2" layoutX="154.0" layoutY="117.0" prefHeight="58.0" prefWidth="57.0" />
       <TextField fx:id="avgKD2" layoutX="258.0" layoutY="117.0" prefHeight="58.0" prefWidth="57.0" />
       <TextField fx:id="avgPlace2" layoutX="366.0" layoutY="117.0" prefHeight="58.0" prefWidth="57.0" />
+      <Button fx:id="addInfo" layoutX="330.0" layoutY="461.0" mnemonicParsing="false" onAction="#addInfoPressed" prefHeight="25.0" prefWidth="107.0" text="Add Information" />
    </children>
 </AnchorPane>
-

@@ -24,18 +24,30 @@ public class GameSelectorController {
 	public AnchorPane mainPane;
 	
 	@FXML
-	void warzonePressed(ActionEvent event) {
-		// warzone thingy lol
+	void warzonePressed(ActionEvent event) throws IOException {
+		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
+		Scene scene = new Scene(mainPane);
+		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+		window.setScene(scene);
+		window.show();
 	}
 	
 	@FXML
-	void fortnitePressed(ActionEvent event) {
-		// fortnite thingy lol
+	void fortnitePressed(ActionEvent event) throws IOException {
+		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
+		Scene scene = new Scene(mainPane);
+		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+		window.setScene(scene);
+		window.show();
 	}
 	
 	@FXML
-	void apexPressed(ActionEvent event) {
-		// apex thingy lol
+	void apexPressed(ActionEvent event) throws IOException {
+		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
+		Scene scene = new Scene(mainPane);
+		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+		window.setScene(scene);
+		window.show();
 	}
 	
 	@FXML
