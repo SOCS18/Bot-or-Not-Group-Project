@@ -5,10 +5,12 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="mainPane" prefHeight="263.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
-      <Label layoutX="126.0" layoutY="88.0" prefHeight="17.0" prefWidth="60.0" text="Bot or Not" textAlignment="CENTER" />
-      <Button fx:id="startButton" layoutX="111.0" layoutY="162.0" mnemonicParsing="false" onAction="#startPressed" text="Start Tracking" />
-      <TextField layoutX="81.0" layoutY="119.0" promptText="Username" />
+      <Label fx:id="bot" layoutX="48.0" layoutY="62.0" prefHeight="17.0" prefWidth="60.0" text="Bot" textAlignment="CENTER" />
+      <Button fx:id="startButton" layoutX="194.0" layoutY="329.0" mnemonicParsing="false" onAction="#startPressed" prefHeight="25.0" prefWidth="114.0" text="Start Tracking" />
+      <TextField fx:id="userName" layoutX="176.0" layoutY="297.0" promptText="Username" />
+      <Label fx:id="not" layoutX="366.0" layoutY="220.0" text="Not" />
+      <Label fx:id="or" layoutX="209.0" layoutY="137.0" text="Or" />
    </children>
 </AnchorPane>
