@@ -243,16 +243,7 @@ public class AddInformationController {
 				window.setUserData(convert);
 				window.show();
 			}
-	    	
 	    }
-		/*start = true;
-		
-		mainPane = FXMLLoader.load(getClass().getResource("Statistics.fxml"));
-		Scene scene = new Scene(mainPane);
-		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-		window.setScene(scene);
-		window.setUserData(convert);
-		window.show();*/
 		
 	}
 	
