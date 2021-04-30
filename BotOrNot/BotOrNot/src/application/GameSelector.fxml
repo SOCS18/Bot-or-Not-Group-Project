@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="gamePane" prefHeight="500.0" prefWidth="500.0" stylesheets="@../../bin/application/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameSelectorController">
+   <children>
+      <Button fx:id="warzoneButton" layoutX="127.0" layoutY="99.0" mnemonicParsing="false" onAction="#warzonePressed" opacity="0.0" prefHeight="80.0" prefWidth="245.0" text="Warzone" />
+      <Button fx:id="fortniteButton" layoutX="128.0" layoutY="320.0" mnemonicParsing="false" onAction="#fortnitePressed" opacity="0.0" prefHeight="80.0" prefWidth="245.0" text="Fortnite" />
+      <Button fx:id="apexButton" layoutX="151.0" layoutY="210.0" mnemonicParsing="false" onAction="#apexPressed" opacity="0.0" prefHeight="80.0" prefWidth="199.0" text="Apex Legends" />
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="453.0" mnemonicParsing="false" onAction="#menuPressed" opacity="0.0" prefHeight="45.0" prefWidth="107.0" text="Home" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="statPane" prefHeight="500.0" prefWidth="500.0" stylesheets="@../../bin/application/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StatisticsController">
+   <children>
+      <Button fx:id="menuButton" layoutX="8.0" layoutY="449.0" mnemonicParsing="false" onAction="#menuPressed" opacity="0.0" prefHeight="42.0" prefWidth="115.0" text="Home" />
+      <Button fx:id="back2" layoutX="452.0" layoutY="465.0" mnemonicParsing="false" onAction="#back2Pressed" opacity="0.0" prefHeight="25.0" prefWidth="29.0" text="&lt;" />
+      <TextField fx:id="gamesPlayed2" editable="false" layoutX="40.0" layoutY="161.0" prefHeight="58.0" prefWidth="57.0" />
+      <TextField fx:id="avgDmg2" editable="false" layoutX="155.0" layoutY="161.0" prefHeight="58.0" prefWidth="57.0" />
+      <TextField fx:id="avgKD2" editable="false" layoutX="273.0" layoutY="161.0" prefHeight="58.0" prefWidth="57.0" />
+      <TextField fx:id="avgPlace2" editable="false" layoutX="390.0" layoutY="161.0" prefHeight="58.0" prefWidth="57.0" />
+      <Button fx:id="addInfo" layoutX="250.0" layoutY="461.0" mnemonicParsing="false" onAction="#addInfoPressed" opacity="0.0" prefHeight="32.0" prefWidth="191.0" text="Add Information" />
+      <Button fx:id="statsDisplay" layoutX="15.0" layoutY="8.0" mnemonicParsing="false" onAction="#statsPressed" opacity="0.0" prefHeight="64.0" prefWidth="107.0" text="CLICK ME TO DISPLAY STATS" textAlignment="CENTER" underline="true" wrapText="true" />
+      <TextArea fx:id="list" editable="false" layoutX="16.0" layoutY="261.0" prefHeight="171.0" prefWidth="468.0" />
+      <TextField fx:id="gameName" alignment="CENTER" editable="false" layoutX="261.0" layoutY="18.0" prefHeight="58.0" prefWidth="205.0">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

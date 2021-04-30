@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="avPane" prefHeight="500.0" prefWidth="500.0" stylesheets="@../../bin/application/application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddViewController">
+   <children>
+      <Button fx:id="add" layoutX="126.0" layoutY="139.0" mnemonicParsing="false" onAction="#addPressed" opacity="0.0" prefHeight="79.0" prefWidth="247.0" text="ADD INFO" />
+      <Button fx:id="view" layoutX="126.0" layoutY="284.0" mnemonicParsing="false" onAction="#viewPressed" opacity="0.0" prefHeight="79.0" prefWidth="247.0" text="VIEW STATS" />
+      <Button fx:id="back1" layoutX="414.0" layoutY="467.0" mnemonicParsing="false" onAction="#back1Pressed" opacity="0.0" prefHeight="26.0" prefWidth="48.0" text="&lt;" />
+      <Button fx:id="menuButton" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#menuPressed" opacity="0.0" prefHeight="37.0" prefWidth="105.0" text="Home" />
+   </children>
+</AnchorPane>

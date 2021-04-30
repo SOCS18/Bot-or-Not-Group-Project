@@ -1,0 +1,31 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#mainPane {
+	
+	-fx-background-image:url("menu.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+#gamePane {
+	
+	-fx-background-image:url("gameselector.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+#avPane {
+	
+	-fx-background-image:url("addview.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+#infoPane {
+	
+	-fx-background-image:url("addinformation.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+#statPane {
+	
+	-fx-background-image:url("statistics.jpg");
+	-fx-background-size: 100% 100%;
+}
