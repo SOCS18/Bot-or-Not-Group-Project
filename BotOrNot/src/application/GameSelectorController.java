@@ -25,28 +25,55 @@ public class GameSelectorController {
 	
 	@FXML
 	void warzonePressed(ActionEvent event) throws IOException {
+		
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
+		Object user = stage.getUserData();
+		String userString = user.toString();
+		
+		String userGame = userString + "~W";
+		
 		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		window.setUserData(userGame);
 		window.show();
 	}
 	
 	@FXML
 	void fortnitePressed(ActionEvent event) throws IOException {
+		
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
+		Object user = stage.getUserData();
+		String userString = user.toString();
+		
+		String userGame = userString + "~F";
+		
 		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		window.setUserData(userGame);
 		window.show();
 	}
 	
 	@FXML
 	void apexPressed(ActionEvent event) throws IOException {
+		
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
+		Object user = stage.getUserData();
+		String userString = user.toString();
+		
+		String userGame = userString + "~A";
+		
 		mainPane = FXMLLoader.load(getClass().getResource("AddView.fxml"));
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		window.setUserData(userGame);
 		window.show();
 	}
 	

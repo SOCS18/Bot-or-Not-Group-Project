@@ -21,19 +21,33 @@ public class AddViewController {
 	
 	@FXML
 	void addPressed(ActionEvent event) throws IOException {
+		
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
+		Object user = stage.getUserData();
+		String userString = user.toString();
+		
 		mainPane = FXMLLoader.load(getClass().getResource("AddInformation.fxml"));
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		window.setUserData(userString);
 		window.show();
 	}
 	
 	@FXML
 	void viewPressed(ActionEvent event) throws IOException {
+		
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
+		Object user = stage.getUserData();
+		String userString = user.toString();
+		
 		mainPane = FXMLLoader.load(getClass().getResource("Statistics.fxml"));
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		window.setUserData(userString);
 		window.show();
 	}
 	
@@ -43,6 +57,7 @@ public class AddViewController {
 		Scene scene = new Scene(mainPane);
 		Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		window.setScene(scene);
+		
 		window.show();
 	}
 	
